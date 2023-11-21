@@ -1,2 +1,0 @@
-# WFC
-Wave Function Collapse

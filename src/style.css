@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+    background-color: #1a1f26;
+    color: #fff;
+}
+
+h2 span {
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+#input, #output {
+    flex: 1 1 1px;
+}
+
+#source, #dest {
+    border: 1px solid #000;
+}
+
+form label {
+    display: block;
+
+    & input[type="file"] {
+        & ~ .value {
+            max-width: 100px;
+        }
+    }
+}

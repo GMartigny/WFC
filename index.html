@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wave Function Collapse</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+<main id="input">
+    <h2>Source</h2>
+    <canvas id="source"></canvas>
+</main>
+<form id="output">
+    <h2>
+        Destination
+        <input type="range" min="10" max="25" value="10" name="width">
+        <span class="value"></span>
+        <input type="range" min="10" max="25" value="10" name="height">
+        <span class="value"></span>
+        <button type="submit" name="submit">
+            Generate
+        </button>
+    </h2>
+    <canvas id="dest"></canvas>
+</form>
+<script src="./src/main.js" type="module"></script>
+</body>
+</html>
