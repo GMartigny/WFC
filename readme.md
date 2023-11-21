@@ -9,7 +9,7 @@ Wave Function Collapse demo
 
 ### Online
 
-Play around in the [online editor](https://gmartigny.github.io).
+Play around in the [online editor](https://gmartigny.github.io/WFC/).
 
 
 ### Clone

@@ -1,4 +1,4 @@
-const use = "/examples/grass-land/";
+const use = "./examples/grass-land/";
 
 /**
  * @typedef {Object} GridData
